@@ -58,10 +58,5 @@
     renderRecipes(favRecipes);
   });
 })();
-(function() {
-  function updateCounter(shown, total) {
-    const counter = document.getElementById("recipeCounter");
-    counter.textContent = `Showing ${shown} of ${total} recipes`;
-  }
-})();
+
 
